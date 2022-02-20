@@ -1,0 +1,123 @@
+.trfg__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.trfg__header-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  /* flex-basis: 100%; */
+  align-items: center;
+  justify-content: center;
+}
+
+.trfg__header-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.trfg__header-content-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.trfg__header-content-heading,
+.trfg__header-content-subheading,
+.trfg__header-content-button {
+  max-width: 445px;
+}
+.trfg__header-content-heading h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  /* or 117% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+
+.trfg__header-content-subheading p {
+  margin: 1.3rem 0rem;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  /* or 152% */
+
+  color: #7d7987;
+
+  mix-blend-mode: normal;
+}
+.trfg__header-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trfg__header-image img {
+  height: 100%;
+  width: 100%;
+}
+.trfg__header-content-button {
+  margin: 2rem 0rem;
+}
+.trfg__header-content-button button {
+  width: 200px;
+  height: 60px;
+  /* padding: 0px 20px; */
+  background: #458ff6;
+  border-radius: 55px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  /* identical to box height, or 333% */
+  outline: none;
+  border: none;
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+}
+
+@media screen and (max-width: 1024px) {
+  .trfg__header-container {
+    flex-direction: column;
+    margin: 0rem 2rem;
+  }
+  .trfg__header-content-flex {
+    align-items: center;
+    justify-content: center;
+  }
+  .trfg__header-content-heading {
+    text-align: center;
+  }
+  .trfg__header-content-heading h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .trfg__header-content-button {
+    margin: 1rem 0rem;
+  }
+  .trfg__header-content-button button {
+    width: 150px;
+    font-size: 15px;
+    height: 45px;
+  }
+  .trfg__header-content-subheading p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .trfg__header-content-subheading {
+    text-align: center;
+  }
+}

@@ -1,0 +1,51 @@
+.trfg__servicescard {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem;
+}
+
+.trfg__servicescard-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.trfg__servicescard-container__image {
+  display: flex;
+  margin: 1rem 0rem;
+  height: 95px;
+}
+.trfg__servicescard-container__image img {
+  width: 100%;
+  height: auto;
+}
+
+.trfg__servicescard-container__content__title h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 56px;
+  /* identical to box height, or 233% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+.trfg__servicescard-container__content__subtitle {
+  /* margin: 0.5rem 0rem; */
+}
+.trfg__servicescard-container__content__subtitle p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  color: #7d7987;
+
+  mix-blend-mode: normal;
+}
