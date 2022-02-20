@@ -102,3 +102,34 @@
       mix-blend-mode: normal;
       cursor: pointer;
   }
+
+
+@media screen and (max-width: 1024px) {
+  .trfg__download-container {
+    flex-direction: column;
+  }
+  .trfg__download-content {
+    margin: 0rem;
+  }
+  .trfg__download-content-flex {
+    align-items: center;
+    justify-content: center;
+  }
+  .trfg__download-content-heading {
+    text-align: center;
+  }
+  .trfg__download-image {
+    margin: 2rem 0rem;
+  }
+  .trfg__download-content-heading h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .trfg__download-content-subheading p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .trfg__download-content-subheading {
+    text-align: center;
+  }
+}

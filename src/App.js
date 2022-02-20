@@ -15,7 +15,7 @@ import element02 from "./assets/element02.svg";
 const App = () => {
   return (
     <div className="App">
-      <div className="trfg__element-1">
+      {/* <div className="trfg__element-1">
         <img src={header01} alt="element" />
       </div>
 
@@ -24,7 +24,7 @@ const App = () => {
       </div>
       <div className="trfg__element-2">
         <img src={element02} alt="element" />
-      </div>
+      </div> */}
       <Navbar />
       <Header />
       <Services />

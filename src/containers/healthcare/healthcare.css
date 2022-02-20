@@ -102,3 +102,33 @@ mix-blend-mode: normal;
     mix-blend-mode: normal;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+  .trfg__healthcare-container {
+    flex-direction: column;
+  }
+  .trfg__healthcare-content {
+    margin: 0rem;
+  }
+  .trfg__healthcare-content-flex {
+    align-items: center;
+    justify-content: center;
+  }
+  .trfg__healthcare-content-heading {
+    text-align: center;
+  }
+  .trfg__healthcare-image {
+    margin: 2rem 0rem;
+  }
+  .trfg__healthcare-content-heading h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .trfg__healthcare-content-subheading p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .trfg__healthcare-content-subheading {
+    text-align: center;
+  }
+}
